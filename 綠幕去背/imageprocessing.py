@@ -1,10 +1,9 @@
 """
-File: best_photoshop_award.py
+File: imageprocessing.py
 ----------------------------------
 This file creates a photoshopped image
-that is going to compete for the Best
-Photoshop Award for SC001.
-Please put all the images you will use in the image_contest folder
+
+Please create the folder to put all the images you will use
 and make sure to choose the right folder when loading your images.
 """
 from simpleimage import SimpleImage
@@ -17,12 +16,17 @@ BLACK_PIXEL = 120
 
 
 def combine(background, me_img):
+    # to loop all the pixel
     for y in range(me_img.height):
         for x in range(me_img.width):
+            # get the pixel of the your image with greenscreen
             me_pixel = me_img.get_pixel(x, y)
+            # get the pixel of the background you want to combine
             background_pixel = background.get_pixel(x, y)
+            # to caculate the average of the pixel
             avg = (me_pixel.red+me_pixel.green+me_pixel.blue)//3
             total = me_pixel.red+me_pixel.green+me_pixel.blue
+            # 如果原本的照片綠色pixel值大於平均＊門檻 or 紅綠藍總值大於所設定的黑色值（以免原照黑色部分消失） ，原照pixel會被背景圖取代
             if me_pixel.green > avg*THRESHOLD and total > BLACK_PIXEL:
                 me_pixel.red = background_pixel.red
                 me_pixel.green = background_pixel.green
@@ -32,8 +36,7 @@ def combine(background, me_img):
 
 def main():
     """
-    創作理念：透過手機螢幕拍攝綠幕，製造出身臨片場的拍攝者。
-    靈感來源：想告訴Jerry一個fun fact，其實黑暗騎士是我用手機拍出來的：）
+    The file will combine your image and the chose background picture.
     """
     me_img = SimpleImage('image_contest/me.jpeg')
     background = SimpleImage('image_contest/background.jpg')
