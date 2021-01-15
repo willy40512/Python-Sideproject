@@ -18,3 +18,7 @@ __下載 breakout.py 和 breakoutgraphics.py__
 可從breakoutgraphic.py那裡更改想要的方塊顏色，以及球的顏色。
 #### 改生命：
 可從breakout.py 的 NUM_LIVES更改（default為3）
+
+點擊圖片可觀看示範影片
+------
+   [![alt ='Cover'](https://github.com/willy40512/my-python-work/blob/main/Breakout%20game/Cover.png)](http://www.youtube.com/watch?v=https://youtu.be/Y03eztqRyq0)
