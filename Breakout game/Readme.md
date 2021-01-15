@@ -1,3 +1,5 @@
+Funny Breakout game / 有趣的打磚塊遊戲
+------
 
 下載 breakout.py 和 breakoutgraphics.py
 
