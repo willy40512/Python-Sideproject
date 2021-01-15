@@ -1,3 +1,6 @@
+
+下載 breakout.py 和 breakoutgraphics.py
+
 使用說明：
 將以上兩個檔案匯入同一資料夾，用python 開啟breakout.py，即可開啟遊戲。
 
