@@ -12,10 +12,10 @@ Fourth Step: Execuate the imageprocessing.py
 Then, you will see a combination of two picture.
 
 green screen picture:
-![image]("https://github.com/willy40512/my-python-work/blob/main/%E7%B6%A0%E5%B9%95%E5%8E%BB%E8%83%8C/image/me.jpeg" width ="300") 
+![image](https://github.com/willy40512/my-python-work/blob/main/%E7%B6%A0%E5%B9%95%E5%8E%BB%E8%83%8C/image/Nme.jpeg) 
 
 background:
-![image]()
+![image](https://github.com/willy40512/my-python-work/blob/main/%E7%B6%A0%E5%B9%95%E5%8E%BB%E8%83%8C/image/Nbackground.jpg)
 
 Final Work:
 ![image](https://github.com/willy40512/my-python-work/blob/main/%E7%B6%A0%E5%B9%95%E5%8E%BB%E8%83%8C/image/Combination1.png)
