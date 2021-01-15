@@ -35,17 +35,13 @@ def combine(background, me_img):
 
 
 def main():
-
-    me_img = SimpleImage('image/me.jpeg')
-    me_img.show()
-    background = SimpleImage('image/background.jpg')
-    background.show()
-
     """
     The file will combine your image and the chose background picture.
     """
     me_img = SimpleImage('image/me.jpeg')
+    me_img.show()
     background = SimpleImage('image/background.jpg')
+    background.show()
     background.make_as_big_as(me_img)
     combined_img = combine(background, me_img)
     combined_img.show()
