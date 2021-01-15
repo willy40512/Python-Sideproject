@@ -1,5 +1,6 @@
 
 Download two python file: "simpleimage.py" and "imageprocessing.py"
+
 First Step: Create a folder called image which should be put in the same folder of python file
 
 Second Step: shot a picture with green screen.
