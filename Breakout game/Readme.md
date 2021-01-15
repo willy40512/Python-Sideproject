@@ -21,4 +21,4 @@ __下載 breakout.py 和 breakoutgraphics.py__
 
 點擊圖片可觀看示範影片
 ------
-   [![alt ='Cover'](https://github.com/willy40512/my-python-work/blob/main/Breakout%20game/Cover.png)](http://www.youtube.com/watch?v=https://youtu.be/Y03eztqRyq0)
+   [![alt ='Cover'](https://github.com/willy40512/my-python-work/blob/main/Breakout%20game/Cover.png)](https://youtu.be/Y03eztqRyq0)
