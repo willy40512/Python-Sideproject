@@ -12,7 +12,7 @@ Fourth Step: Execuate the imageprocessing.py
 Then, you will see a combination of two picture.
 
 green screen picture:
-![image](https://github.com/willy40512/my-python-work/blob/main/%E7%B6%A0%E5%B9%95%E5%8E%BB%E8%83%8C/image/me.jpeg= 40%x)
+<imag src="https://github.com/willy40512/my-python-work/blob/main/%E7%B6%A0%E5%B9%95%E5%8E%BB%E8%83%8C/image/me.jpeg" width =300>
 
 background:
 ![image]()
