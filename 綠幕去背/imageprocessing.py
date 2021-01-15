@@ -38,8 +38,8 @@ def main():
     """
     The file will combine your image and the chose background picture.
     """
-    me_img = SimpleImage('image_contest/me.jpeg')
-    background = SimpleImage('image_contest/background.jpg')
+    me_img = SimpleImage('image/me.jpeg')
+    background = SimpleImage('image/background.jpg')
     background.make_as_big_as(me_img)
     combined_img = combine(background, me_img)
     combined_img.show()
