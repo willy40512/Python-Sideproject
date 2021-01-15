@@ -31,12 +31,11 @@ def combine(background, me_img):
 
 
 def main():
-    """
-    創作理念：透過手機螢幕拍攝綠幕，製造出身臨片場的拍攝者。
-    靈感來源：想告訴Jerry一個fun fact，其實黑暗騎士是我用手機拍出來的：）
-    """
-    me_img = SimpleImage('image_contest/me.jpeg')
-    background = SimpleImage('image_contest/background.jpg')
+
+    me_img = SimpleImage('image/me.jpeg')
+    me_img.show()
+    background = SimpleImage('image/background.jpg')
+    background.show()
     background.make_as_big_as(me_img)
     combined_img = combine(background, me_img)
     combined_img.show()
